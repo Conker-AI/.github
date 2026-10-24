@@ -35,6 +35,6 @@ flowchart LR
 | [**systemgate**](https://github.com/Conker-AI/systemgate) | A read-only view of the machine |
 | [**embeddings**](https://github.com/Conker-AI/embeddings) | Text to vectors, and nothing else |
 
-Each service is MIT-licensed and usable on its own. Conker is early: see
+Each service is licensed under AGPL-3.0 and usable on its own. Conker is early: see
 [status](https://github.com/Conker-AI/conker/blob/main/docs/status.md) for what is live and what is
 still preview.
