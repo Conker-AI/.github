@@ -1,0 +1,20 @@
+name: An idea
+description: Something Conker should do, or do differently.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you are trying to do, and what gets in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: How it could work. Say what it must never do, too (for example, act without asking).
+  - type: textarea
+    id: instead
+    attributes:
+      label: What you do now instead
