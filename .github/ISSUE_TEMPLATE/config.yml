@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem privately
+    url: https://github.com/Conker-AI/conker/security/advisories/new
+    about: Never in a public issue. The report goes to the maintainer only.
+  - name: What works today
+    url: https://github.com/Conker-AI/conker/blob/main/docs/status.md
+    about: Check the status page first; known gaps are listed there.

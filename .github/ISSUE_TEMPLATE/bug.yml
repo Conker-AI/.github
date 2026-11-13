@@ -1,0 +1,46 @@
+name: Something is wrong
+description: Conker did something it shouldn't, or didn't do something it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please leave out passwords, keys, addresses and anything private
+        from your chats or memories. A security problem goes to a private report instead (see the
+        link on the previous page).
+  - type: textarea
+    id: did
+    attributes:
+      label: What you did
+      description: The steps, from a screen or a command, so someone else can repeat them.
+      placeholder: "1. Opened Inbox\n2. Tapped Approve on a send request\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened instead
+      description: The message or error you saw, word for word if you can. Screenshots help.
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: Versions
+      description: The output of `./conker status`, or the versions shown in Settings.
+      render: text
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where it runs
+      options:
+        - Docker Compose (install.sh)
+        - Ubuntu server layout
+        - Local workspace on a PC
+        - Not sure
